@@ -340,6 +340,20 @@ nav a {
 
 
 @media only screen and (max-width: 500px) {
+  .footer-input-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 44px;
+}
+  nav li a {
+    width: max-content;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    padding: 9px;
+}
   .apollo-quotes-row2-column {
     border: 1px solid white;
     margin: 0px 0px 20px 17px;
@@ -356,7 +370,7 @@ nav a {
   .apollo-home-innerSection {
     background: url(image/sec1-bg-cover.png);
     height: 100vh;
-    width: auto;
+    width: 100%;
   }
   nav ul {
     width: auto;
